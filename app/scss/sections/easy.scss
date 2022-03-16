@@ -1,0 +1,47 @@
+.easy {
+  width: 1001px;
+  margin: 0 auto;
+    &_title {
+      font-family: Comfortaa;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 72px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #000000;
+      margin: 0 auto 50px;
+    }
+
+    &_box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      span {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        color: #808080;
+        max-width: 469px;
+      }
+    }
+
+    &_bottom {
+      span {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #1D242D;
+        margin: 100px auto 100px;
+      }
+    }
+}

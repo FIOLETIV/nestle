@@ -1,0 +1,224 @@
+.allow_third {
+  .box {
+    display: flex;
+    max-width: 1472px;
+    max-height: 552px;
+    margin: auto;
+
+    &_title {
+      font-family: Comfortaa;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 64px;
+      line-height: 92px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      margin-top: 35px;
+      justify-content: center;
+    }
+
+    &_subtitle {
+      font-family: Comfortaa;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 92px;
+      text-align: center;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.5);
+      margin-bottom: 30px;
+    }
+
+    &_under {
+      display: flex;
+    }
+
+    &_left {
+      width: 50%;
+      background: #E6007E;
+      font-family: Comfortaa;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 64px;
+      line-height: 72px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .left {
+      margin-left: 129px;
+    }
+
+    &_right {
+      width: 50%;
+      font-family: Comfortaa;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 64px;
+      line-height: 72px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    .left_text {
+      font-family: Arial;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 24px;
+      text-align: center;
+      color: #FFFFFF;
+      width: 218px;
+      height: 48px;
+    }
+
+    .right_text {
+      font-family: Arial;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 24px;
+      text-align: center;
+      color: #FFFFFF;
+      width: 218px;
+      height: 96px;
+    }
+
+  }
+}
+
+.middle {
+  &_title {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 72px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 100px 0 60px 0;
+    &--gray {
+      color: rgba(45, 62, 83, 0.5);
+    }
+  }
+
+  &_collums {
+    max-width: 1378px;
+    margin: 0 auto;
+  }
+
+  &_box {
+    display: flex;
+  }
+
+  &_first {
+    width: 250px;
+    margin-left: 30px;
+  }
+
+  &_duo {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+  }
+
+  .plus {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #00A5CD;
+  }
+
+}
+
+.bottom {
+  margin-top: 100px;
+
+  &_wrapper {
+    display: flex;
+    width: 1357px;
+    margin: 0 auto 240px;
+  }
+
+  &_button {
+    background: #00A5CD;
+    border-radius: 5px;
+    width: 373px;
+    height: 108px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    &--orange {
+      background: #F7811D;
+    }
+    &--purple {
+      background: #E6007E;
+    }
+  }
+
+  .left {
+    width: 469px;
+    span {
+      font-family: Comfortaa;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 72px;
+      text-transform: uppercase;
+      color: #000000;
+    }
+  }
+
+  .middle {
+    margin: 0 auto;
+    &_title {
+      font-family: Arial;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 24px;
+      text-align: center;
+      color: #2D3E53;
+      text-transform: capitalize;
+      margin: 18px 0 20px 0;
+    }
+    &_subtitle {
+      font-family: Comfortaa;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 48px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #2D3E53;
+      &--blue {
+        color: #00A5CD;
+      }
+      &--orange {
+        color: #F7811D;
+      }
+      &--purple {
+        color: #E6007E;
+      }
+    }
+
+  }
+
+}

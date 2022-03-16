@@ -1,0 +1,38 @@
+.graphics {
+  background: #F8F8F8;
+  padding-bottom: 130px;
+  &__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00A5CD;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &__img {
+    display: flex;
+  }
+  &__text {
+    max-width: 865px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 60px;
+  }
+  &__subtext {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #808080;
+    display: flex;
+    padding-bottom: 40px;
+  }
+}

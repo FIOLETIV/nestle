@@ -1,0 +1,63 @@
+@import "sections/title";
+@import "normalize";
+@import "font";
+@import "sections/intro";
+@import "sections/postintro";
+@import "sections/reasons";
+@import "sections/graphics";
+@import "sections/steps";
+@import "sections/products";
+@import "sections/allow_first";
+@import "sections/allow_second";
+@import "sections/allow_third";
+@import "sections/easy";
+@import "sections/swiper";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+body {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  width: auto;
+}
+
+.nn-container {
+  max-width: 1440px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+header {
+  img {
+    width: 100%;
+    height: 206px;
+  }
+}
